@@ -1,3 +1,48 @@
+
+ # CLONING THE PROJECT  
+ #KINGSTON COKER, SUSANA NDEDE
+
+
+
+-  After downloading the appropriate tools, open a terminal in your github root directory.
+
+-  using the command "git clone --depth=14 https://github.com/angular/angular-phonecat.git"
+
+-  proceed to the angualar-phonecat directory.
+
+-  being in the local master branch checkout into a local branch with the command "git checkout -f step-0"
+-  
+-  proceed to create another local repository in the root directory
+-  
+-  step into that directory with the command "cd  <project name>"
+-  
+-  initialize that directory to git with command "git init"
+-  
+-  copy all the files from angular-phonecate to the created directory with command "xcopy ..\angular-phonecat"
+-  
+-  exclude the .git forlder from angular-phonecate folder
+-  
+-  add the files to be commited with "git add ."
+-  
+-  commit with command "git commit -m "you comment here"
+-  
+-  create a remote for the repository using command "git remote set-url origin <url to online repository>"
+-  
+-  push the project to the repository online with " git push origin <branch>
+-  
+-  so now the next person has to pull the project into a new branch
+-  
+-  after they create a branch with commang "git branch <branchname>"
+-  
+-  and then checkout into that branch with command  "git checkout -f <branchname>"
+-  
+-  then they pull with command "git pull <remote> <branchname on online repository>"
+-  
+-  after changes are made, a push is made to a new branch online with the push command
+-  
+-  the creation of new branches is continued and checked into, pull and pushed until the process is done
+
+
 # AngularJS Phone Catalog Tutorial Application
 
 ## Overview
